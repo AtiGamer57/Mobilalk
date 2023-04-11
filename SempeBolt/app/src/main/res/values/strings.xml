@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">SempeBolt</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="password">Jelszó</string>
+    <string name="username">Felhasználónév</string>
+    <string name="register">Regisztráció</string>
+    <string name="email">Email cím</string>
 </resources>
