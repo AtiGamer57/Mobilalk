@@ -5,4 +5,22 @@
     <string name="username">Felhasználónév</string>
     <string name="register">Regisztráció</string>
     <string name="email">Email cím</string>
+    <string name="placeholder">Placeholder text</string>
+    <string name="put_into_cart">Kosárba</string>
+
+    <string-array name="item_names">
+        <item>Csempe</item>
+    </string-array>
+    <string-array name="item_descriptions">
+        <item>Ez egy csempe</item>
+    </string-array>
+    <array name="item_images">
+        <item>@drawable/ic_launcher_background</item>
+    </array>
+    <array name="item_ratings">
+        <item>4</item>
+    </array>
+    <string-array name="item_prices">
+        <item>1000</item>
+    </string-array>
 </resources>

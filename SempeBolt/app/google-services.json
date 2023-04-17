@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "990088382917",
+    "project_id": "sempeshop",
+    "storage_bucket": "sempeshop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990088382917:android:62f580b201df1fdff323ac",
+        "android_client_info": {
+          "package_name": "com.example.sempebolt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "990088382917-v52c0srcsd7nl9tra6t3gu6ahm5oo23q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sempebolt",
+            "certificate_hash": "12508216dd1dac883265d07d871d236f4d1035a1"
+          }
+        },
+        {
+          "client_id": "990088382917-pfi0d318untq56qgghfrma7kq6jep751.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7iSlscMGLwO8O7b_Ih17vbCFYk7Qgox8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "990088382917-pfi0d318untq56qgghfrma7kq6jep751.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

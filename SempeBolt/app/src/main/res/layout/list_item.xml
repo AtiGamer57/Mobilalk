@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/itemImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true" />
+
+        <TextView
+            android:id="@+id/itemTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/itemImage"
+            android:text="@string/placeholder"
+            android:padding="8dp"/>
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isIndicator="true"
+            android:layout_below="@id/itemTitle"
+            android:layout_margin="8dp"
+            style="@android:style/Widget.DeviceDefault.Light.RatingBar.Small"/>
+
+        <TextView
+            android:id="@+id/itemDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ratingBar"
+            android:text="@string/placeholder"
+            android:textColor="@color/black"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/itemPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/orange"
+            android:text="@string/placeholder"
+            android:layout_below="@id/itemDescription"
+            />
+
+        <Button
+            android:id="@+id/cartButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/put_into_cart"
+            android:padding="8dp"
+            android:layout_below="@id/itemPrice"
+            android:layout_centerHorizontal="true"/>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
