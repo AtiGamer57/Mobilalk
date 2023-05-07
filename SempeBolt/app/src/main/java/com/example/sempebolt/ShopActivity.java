@@ -6,8 +6,12 @@ import androidx.core.view.MenuItemCompat;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.app.AlarmManager;
+import android.app.PendingIntent;
+import android.content.Intent;
 import android.content.res.TypedArray;
 import android.os.Bundle;
+import android.os.SystemClock;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -56,6 +60,7 @@ public class ShopActivity extends AppCompatActivity {
 
     private static int shownItems = 3;
 
+    NotificationSender noti;
     DaoImpl dao;
 
     @Override
@@ -75,11 +80,14 @@ public class ShopActivity extends AppCompatActivity {
         itemAdapter = new ItemAdapter(this, itemList);
         recyclerView.setAdapter(itemAdapter);
 
+        noti = new NotificationSender();
 
         firestore = FirebaseFirestore.getInstance();
         items = firestore.collection("Items");
 
         dao = DaoImpl.getInstance();
+
+        noti.sendNotification(this, "It's time to Shop!", "Hamár itt vagy, nézz be a boltba!");
 
         queryData();
     }
@@ -240,4 +248,5 @@ public class ShopActivity extends AppCompatActivity {
         shownItems += 3;
         queryData();
     }
+
 }
