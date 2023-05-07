@@ -112,7 +112,11 @@ public class ItemAdapter extends RecyclerView.Adapter<ItemAdapter.ViewHolder> im
                 @Override
                 public void onClick(View view) {
                     Log.d("shashanga", "shashanga");
-                    ((ShopActivity)context).updateAlertIconCount();
+                    try {
+                        ((ShopActivity) context).updateAlertIconCount();
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
                     Log.d("shashanga2", "shashanga2");
                 }
             });

@@ -9,18 +9,194 @@
     <string name="put_into_cart">Kosárba</string>
 
     <string-array name="item_names">
-        <item>Csempe</item>
+        <item>Falicsempe "Elesa"</item>
+        <item>Zalakerámia falicsempe Monaco</item>
+        <item>Zalakerámia falicsempe Mátra</item>
+        <item>Dekorcsempe Waterloo</item>
+        <item>Dekorcsempe Waterloo</item>
+        <item>Falicsempe WAVES</item>
+        <item>Matt falicsempe</item>
+        <item>Fényes falicsempe</item>
+        <item>Matt dekorcsemepe falicsempe</item>
+        <item>Fényes falicsempe</item>
+        <item>Bella Ivory Mozaika rektifikált matt famintázatú dekor csempe</item>
+        <item>Zalakerámia falburkoló Concreto</item>
+        <item>Zalakerámia falicsempe Petrol</item>
+        <item>Zalakerámia falicsempe Mira</item>
+        <item>Zalakerámia falburkoló Marmit</item>
+        <item>Fali csempe Antica</item>
+        <item>Montreal Grey matt rektifikált kerámia</item>
+        <item>Metro falicsempe</item>
+        <item>Zalakerámia falicsempe Geo</item>
+        <item>Zalakerámia falicsempe Mira</item>
+        <item>Metro falicsempe</item>
+        <item>Fényes struktúrált felületű falicsempe</item>
     </string-array>
+
     <string-array name="item_descriptions">
-        <item>Ez egy csempe</item>
+        <item>Mérete: 34 cm x 34 cm
+A doboz tartalma: 1,62 m2/doboz
+Csak dobozban kapható!</item>
+        <item>1,5m2/doboz
+Klasszikus, Magyar termék
+Falicsempe</item>
+        <item>A doboz tartalma: 1,9 m2
+Magyar termék
+Fényes felületű
+Csak csomagban kapható!</item>
+        <item>Dekorcsempe
+Világos szürke
+29,7 cm x 60 cm
+Csak csomagban kapható
+A csomag tartalma: 1,25m2</item>
+        <item>Kerámia
+Fényes
+Téglány</item>
+        <item>Falicsempe
+Fényes fehér
+25 cm x 40 cm
+Csak csomagban kapható
+A csomag tartalma: 1,2 m2</item>
+        <item>Falicsempe
+Mérete: 25 cm x 40 cm
+Időtálló</item>
+        <item>Falicsempe
+Mérete: 29,7 cm x 60 cm
+Időtálló</item>
+        <item>Falicsempe
+Mérete: 29,7 cm x 60 cm
+Időtálló</item>
+        <item>Falicsempe
+Mérete: 29,7 cm x 60 cm
+Időtálló</item>
+        <item>Méret: 25 cm x 40 cm
+9 mm vastag
+Bézs és barna színű
+Beltér
+Rektifikált</item>
+        <item>Beltéri használatra
+Modern hatású
+Vastagság: 9 mm</item>
+        <item>Magyar termék
+Matt felületű
+Falburkoló
+Nem fagyálló</item>
+        <item>A doboz tartalma: 1,5 m2
+Magyar termék
+Fényes felületű
+Dekoratív</item>
+        <item>Falicsempe
+Méret: 20 cm x 20 cm x 0,7 cm
+Fehér
+Fényes</item>
+        <item>Lap mérete: 20 cm x 30 cm
+1,5 m2/doboz
+Csak dobozban kapható!</item>
+        <item>Kerámia fali csempe
+Matt
+Méret: 30 cm x 60 cm
+9 mm vastag
+Kő imitáció
+Szürke
+Rektifikált
+Beltéri</item>
+        <item>Strapabíró falicsempe a fürdőszobába és a konyhába
+Időtálló formatervezés retro megjelenéssel
+A sima felület egyszerű és különösen higiénikus tisztítást tesz lehetővé
+A csomag tartalma: 0,76 m2
+Beltéren használható
+Méret: 10 cm x 20 cm</item>
+        <item>Magyar termék
+Matt felületű
+Falburkoló
+Nem fagyálló</item>
+        <item>A doboz tartalma: 1,5 m2
+Magyar termék
+Fényes felületű
+Dekoratív</item>
+        <item>Strapabíró falicsempe a fürdőszobába és a konyhába
+Időtálló formatervezés retro megjelenéssel
+A sima felület egyszerű és különösen higiénikus tisztítást tesz lehetővé
+A csomag tartalma: 0,76 m2
+Beltéren használható
+Méret: 10 cm x 20 cm</item>
+        <item>Falicsempe
+Mérete: 29,7 cm x 60 cm
+Időtálló</item>
     </string-array>
-    <array name="item_images">
-        <item>@drawable/ic_launcher_background</item>
-    </array>
+
+    <string-array name="item_images">
+        <item>https://images.obi.hu/product/HU/415x415/398504_2.jpg</item>
+        <item>https://images.obi.hu/product/HU/415x415/284794_1.jpg</item>
+        <item>https://images.obi.hu/product/HU/415x415/291777_1.jpg</item>
+        <item>https://images.obi.hu/product/HU/415x415/470815_1.jpg</item>
+        <item>https://images.obi.hu/product/HU/415x415/100177_1.jpg</item>
+        <item>https://images.obi.hu/product/HU/415x415/443883_1.jpg</item>
+        <item>https://images.obi.hu/product/HU/415x415/490204_1.jpg</item>
+        <item>https://images.obi.hu/product/HU/415x415/490200_1.jpg</item>
+        <item>https://images.obi.hu/product/HU/415x415/490203_1.jpg</item>
+        <item>https://images.obi.hu/product/HU/415x415/490208_1.jpg</item>
+        <item>https://images.obi.hu/product/HU/415x415/483556_1.jpg</item>
+        <item>https://images.obi.hu/product/HU/415x415/447128_1.jpg</item>
+        <item>https://images.obi.hu/product/HU/415x415/100383_1.jpg</item>
+        <item>https://images.obi.hu/product/HU/415x415/227378_1.jpg</item>
+        <item>https://images.obi.hu/product/HU/415x415/478820_1.jpg</item>
+        <item>https://images.obi.hu/product/HU/415x415/404820_1.jpg</item>
+        <item>https://images.obi.hu/product/HU/415x415/502087_1.jpg</item>
+        <item>https://images.obi.hu/product/DE/415x415/856243_1.jpg</item>
+        <item>https://images.obi.hu/product/HU/415x415/473331_1.jpg</item>
+        <item>https://images.obi.hu/product/HU/415x415/227379_1.jpg</item>
+        <item>https://images.obi.hu/product/DE/415x415/856242_1.jpg</item>
+        <item>https://images.obi.hu/product/HU/415x415/490207_1.jpg</item>
+    </string-array>
+
     <array name="item_ratings">
+        <item>5</item>
+        <item>4.5</item>
+        <item>4</item>
+        <item>5</item>
+        <item>0</item>
+        <item>2</item>
+        <item>4.5</item>
+        <item>3</item>
+        <item>5</item>
+        <item>5</item>
+        <item>3</item>
+        <item>4</item>
+        <item>0</item>
+        <item>4.5</item>
+        <item>0</item>
+        <item>5</item>
+        <item>2.5</item>
+        <item>5</item>
+        <item>3</item>
+        <item>4.5</item>
+        <item>0</item>
         <item>4</item>
     </array>
+
     <string-array name="item_prices">
         <item>1000</item>
+        <item>1300</item>
+        <item>1200</item>
+        <item>1500</item>
+        <item>1200</item>
+        <item>1600</item>
+        <item>1400</item>
+        <item>1000</item>
+        <item>1300</item>
+        <item>1200</item>
+        <item>1150</item>
+        <item>1500</item>
+        <item>1000</item>
+        <item>1300</item>
+        <item>1450</item>
+        <item>1500</item>
+        <item>1200</item>
+        <item>1600</item>
+        <item>1400</item>
+        <item>1700</item>
+        <item>1300</item>
+        <item>1200</item>
     </string-array>
 </resources>
